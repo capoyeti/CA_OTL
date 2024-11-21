@@ -132,3 +132,41 @@
 - {{landlord_email_address}} - Landlord's email address
 - {{tenant_physical_address}} - Tenant's physical address
 - {{tenant_email_address}} - Tenant's email address
+
+# FICA - CDD Form Variables
+
+## Company Details
+- {{company_legal_entity}} - Company name and registration number
+- {{company_registration_number}} - Company registration number
+- {{company_sa_presence}} - Description of SA business presence
+- {{company_stock_exchange}} - Stock exchange listing if applicable
+- {{company_tax_number}} - SARS income tax number
+- {{company_physical_address}} - Company's registered physical address
+
+## Representative Details
+- {{representative_full_name}} - Full name of company representative
+- {{representative_id_number}} - SA ID or foreign passport number
+- {{representative_physical_address}} - Physical address of representative
+- {{representative_telephone}} - Contact telephone number
+- {{representative_email}} - Email address
+- {{representative_authority_type}} - Authority documentation type
+
+## Service Information
+- {{service_type}} - Type of service required (rental/transaction/other)
+- {{service_other_details}} - Details for other service types
+- {{payment_finance_method}} - Method of financing payments
+- {{payment_large_cash}} - Indicator for large cash payments (Y/N)
+
+## Business Information
+- {{business_description}} - Description of company business/industry
+- {{ownership_structure}} - Company ownership structure details
+
+## UBO Information
+- {{ubo_method}} - Method of UBO identification (control/majority/executive)
+- {{ubo_details}} - Details of ultimate beneficial owners
+- {{ubo_addresses}} - Physical addresses of UBOs
+
+## Office Use
+- {{employee_name}} - Name of processing employee
+- {{employee_completion_date}} - Date of form completion
+- {{outstanding_requirements}} - List of outstanding requirements
